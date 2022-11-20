@@ -1,0 +1,45 @@
+body{
+    background-color: black; color:antiquewhite; text-align: center;
+}
+
+h1{
+    font-family:Cambria;
+    text-align: center;
+    font: bold;
+    font-size: 75px
+    }
+h2{
+    text-align: center;
+    font-size: 50px;
+    background-color: darkgray;
+    color: black;
+    text-transform: capitalize;
+  }
+
+.flex-container{
+    display: flex;
+} 
+ header{
+    width: 20%;
+    height: 100%;
+     }
+main{
+    width: 80%;
+    height: 100%;
+}
+.link{
+    display: block;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.link:hover{
+    color: black;
+    background-color: gray;
+    font-weight: bolder;
+
+}
+/**/
